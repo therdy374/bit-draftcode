@@ -1,0 +1,1730 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.tradingContainer aside .slick-cell {
+  font-family: 'Pretendard';
+}
+
+header > div:after,
+header > div nav ul:after,
+header > div > div ul:after,
+header #gnbPanel ul:first-of-type:after,
+header #gnbPanel > ul:nth-of-type(2):after,
+footer > div:after,
+footer > div > div:after,
+footer > div > ul:after,
+footer > div > div ul > li ol:after,
+.mainContainer > ul:after,
+.mainVisualBottomBox .mvBottomWrap:after,
+.mainContainer .tradBox ul li:after,
+.mainContainer .advanBox ol:after,
+.mainContainer > div:nth-of-type(4) ul:after,
+.loginContainer ul:after,
+.balanceContainer ul:after,
+.balanceContainer > div > div:last-of-type > ol:after,
+.noticeContainer > div ul:after,
+.qnaContainer > div ul:after,
+.tradingContainer:after,
+.tradingContainer .search:after,
+.tradingContainer aside section article span div:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2):after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:first-of-type:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:nth-of-type(2) li:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:last-of-type li:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.transaction_area > div > ul:last-of-type li:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl dd:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div > div:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dt:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div ul:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div > div.tr_point_bar:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div.leveragePoint ul:after,
+.tradingContainer > div > div:nth-of-type(2) > ul:after,
+.tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:first-of-type:after,
+div[class^='layer_'] div.summary div:after,
+div[class^='layer_'] ul.layer_stoploss_confirm_tit:after,
+div.layer_stoploss_confirm > div.detail:after,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:last-of-type:after,
+.tradingContainer > div > div:first-of-type > h2 > section article span div:after,
+.frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint ul:after,
+.frameWrapper > .invest_area > div > dl:last-of-type dd > div > div.tr_point_bar:after,
+.frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint div.leverage_pointBar:after,
+.frameWrapper > .invest_area > div > dl:last-of-type dd > div ul:after,
+.frameWrapper > .invest_area > div > div:nth-of-type(3) > div > div.tx:after,
+.frameWrapper > .invest_area > div > dl > dd:after,
+.frameWrapper > .invest_area > div > div:first-of-type > div:after,
+.boardWriteContainer .btn_board_menu:after,
+.qnaContainer > div div.qnaReplyBox:after,
+.qnaContainer > div:after {
+  content: '';
+  display: block;
+  clear: both;
+} 
+
+.closeBtn {
+  display: block;
+  width: 33px;
+  height: 33px;
+  border: 0;
+  text-indent: -9999px;
+  background: url('../images/icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: pointer;
+  background-position: -214px -20px;
+}
+
+.dimmedLayer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+
+  .dimmedLayer.active {
+      display: block;
+  }
+
+body.dark div:where(.swal2-container).swal2-center > .swal2-popup {
+  background-color: #181A20;
+}
+
+body.dark div:where(.swal2-container) h2:where(.swal2-title) {
+  color: #fff;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  padding: 20px 0;
+}
+
+div:where(.swal2-container) h2:where(.swal2-title) {
+  color: #303030;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #0062df;
+  color: #fff;
+  font-family: 'Pretendard';
+}
+
+  div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+      box-shadow: none;
+  }
+
+body.dark,
+body.dark .mainContainer .mainVisualBox,
+body.dark .mainContainer .mainSlider,
+body.dark .mainContainer .tradBox,
+body.dark .mainContainer .advanBox,
+body.dark .qnaContainer > div div form input:nth-of-type(3),
+body.dark .qnaContainer > div div form input:nth-of-type(4),
+body.dark .qnaContainer > div div form input:nth-of-type(5),
+body.dark .qnaContainer > div div form input[type='text']:last-of-type,
+body.dark .tradingContainer > div,
+body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div > div.tr_point_bar > div > div > input[type='range'],
+body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div.leveragePoint div.leverage_pointBar > div.li_point_bar div input[type='range'],
+body.dark .boardWriteContainer select {
+  background-color: #0B0E11;
+}
+
+  body.dark header,
+  body.dark header #setPanel,
+  body.dark header #gnbPanel,
+  body.dark .mainVisualBottomBox,
+  body.dark .mainContainer .mainSlider li,
+  body.dark .mainContainer .mainSlider li a,
+  body.dark .mainContainer .tradBox li,
+  body.dark .mainContainer .tradBox ul li:nth-of-type(2n+1),
+  body.dark .mainContainer .advanBox ol li,
+  body.dark .mainContainer .welBox,
+  body.dark footer,
+  body.dark .tradingContainer .ty02,
+  body.dark .tradingContainer section article,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl > dd > button,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div > div > button,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div ul li button,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div.leveragePoint ul li button,
+  body.dark div[class^='layer_'],
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .stopBar input[type='range'],
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .direct_input,
+  body.dark .frameWrapper > .sell_buy,
+  body.dark .frameWrapper > .invest_area,
+  body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > div > div.tr_point_bar > div > div > input[type='range'],
+  body.dark .frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint div.leverage_pointBar > div.li_point_bar div input[type='range'],
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .stopBar input[type='range'],
+  body.dark .qnaContainer > div div.qnaReplyList,
+  body.dark .qnaContainer > div div.qnaReplyBox {
+      background-color: #181A20;
+  }
+
+      body.dark .mainContainer .tradSlider li a,
+      body.dark .mainVisualBottomBox .mvBottomWrap a,
+      body.dark .pagenation > ol > li a.active,
+      body.dark div[class^='layer_'] div.summary div button,
+      body.dark div[class^='layer_'] ul.layer_stoploss_confirm_tit > li ul li button,
+      body.dark .frameWrapper > .invest_area > div > dl > dd > button,
+      body.dark .frameWrapper > .invest_area > div > div > div > button,
+      body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > div ul li button,
+      body.dark .frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint ul li button {
+          background-color: #23252d;
+      }
+
+          body.dark .balanceContainer > div .tabPage div input,
+          body.dark [class$='Container'] > div table + a,
+          body.dark .qnaContainer > div div form input,
+          body.dark .loginContainer input,
+          body.dark .joinContainer input,
+          body.dark .tradingContainer .ty02 article span div input[type='text'],
+          body.dark .tradingContainer .ty02 article span div a,
+          body.dark .tradingContainer .ty02 .slick-viewport::-webkit-scrollbar-track,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl > dd > button.selected,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div > div > button.selected,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:first-of-type > div button.active,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div > div.tr_point_bar > button,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div.leveragePoint div.leverage_pointBar button,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div ul li button.selected,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div.leveragePoint ul li button.selected,
+          body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:last-of-type table tr td:last-of-type button,
+          body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table tr td:last-of-type button,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > input[type='number'],
+          body.dark div[class^='layer_'] ul.layer_stoploss_confirm_tit > li ul li button.selected,
+          body.dark div[class^='layer_'] .btn_area button:first-of-type,
+          body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .stopBar button,
+          body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .direct_input button,
+          body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .direct_input input[type='number'],
+          body.dark div[class^='layer_'] ul.layer_stoploss_confirm_tit > li ul li button.selected,
+          body.dark .frameWrapper > .invest_area > div > div:first-of-type + div > span,
+          body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > input[type='number'],
+          body.dark .frameWrapper > .invest_area > div > div:first-of-type + div input,
+          body.dark .tradingContainer > div > div:first-of-type > h2 > section article span div input[type='text'],
+          body.dark .tradingContainer > div > div:first-of-type > h2 > section article span div a,
+          body.dark .boardWriteContainer .btn_board_menu input[type='submit']:first-of-type,
+          body.dark .qnaContainer > div div.qnaReplyBox textarea,
+          body.dark .noticeContainer > div > a.btn_1,
+          body.dark .qnaContainer > div > a.btn_1,
+          body.dark .tradingContainer .ty02 .slick-header-columns,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:first-of-type + div input,
+          body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:first-of-type + div > span {
+              background-color: #2b3139;
+          }
+
+  body.dark div.layer_stoploss_confirm div.btn_area > button {
+      background-color: #2b3139 !important;
+  }
+
+  body.dark .mainContainer .welBox > div > div a,
+  body.dark .loginContainer input[type='submit'],
+  body.dark .joinContainer input[type='submit'],
+  body.dark .boardWriteContainer .btn_board_menu input[type='submit']:not(:first-of-type),
+  body.dark .qnaContainer > div div.qnaReplyBox input[type='submit'] {
+      background-color: #0062df;
+  }
+
+  body.dark .mainContainer .welBox > div > div a:hover,
+  body.dark header > div > div ul > li:last-of-type > a,
+  body.dark header #gnbPanel > ul:first-of-type > li:last-of-type > a {
+      background-color: #fff;
+  }
+
+  body.dark header #gnbPanel > ul:nth-of-type(2) li:not(:first-of-type):after,
+  body.dark .frameWrapper > .invest_area > div > dl > dd > button.selected, .frameWrapper > .invest_area > div > div > div > button.selected,
+  body.dark .frameWrapper > .invest_area > div > div:first-of-type > div button.active,
+  body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > div ul li button.selected,
+  body.dark .frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint ul li button.selected,
+  body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > div > div.tr_point_bar > button,
+  body.dark .frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint div.leverage_pointBar button,
+  body.dark div[class^='layer_'] div.summary div button.selected,
+  body.dark .panel-default > .panel-heading,
+  body.dark .note-editor.note-frame .note-editing-area .note-editable,
+  body.dark .tradingContainer .ty02 .slick-viewport::-webkit-scrollbar-thumb {
+      background-color: #474D57;
+  }
+
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:nth-of-type(2) li:nth-of-type(2n+1),
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:last-of-type li:nth-of-type(2n+1),
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.transaction_area > div > ul:last-of-type li:nth-of-type(2n+1) {
+      background-color: rgba(24,26,32,0.5);
+  }
+
+  body.dark header > div > div ul > li ol {
+      background-color: rgba(24,26,32,0.8);
+  }
+
+  body.dark .tradingContainer > div > div:first-of-type > h2 > section {
+      background-color: rgba(24,26,32,0.95);
+  }
+
+  body.dark .slick-row.ui-widget-content:hover {
+      background-color: rgba(43,49,57,0.3) !important;
+  }
+  body.dark div[class^='layer_'] .btn_area button:last-of-type{
+      background-color: #3d4754;
+  }
+
+  body.dark header > div nav ul li a,
+  body.dark header > div > div ul > li ol li a,
+  body.dark header #setPanel ul li span,
+  body.dark header #gnbPanel > ul:last-of-type li a,
+  body.dark header #gnbPanel > ul:nth-of-type(2) li a,
+  body.dark header #gnbPanel ol,
+  body.dark header #gnbPanel input[data-toggle="slideToggle"],
+  body.dark .mainContainer .mainVisualBox div h4,
+  body.dark .mainContainer .mainSlider h3,
+  body.dark .mainContainer .tradBox li div b,
+  body.dark .mainContainer .tradBox li span b,
+  body.dark .mainContainer .tradBox li a,
+  body.dark .mainContainer .tradBox h3,
+  body.dark .mainVisualBottomBox .mvBottomWrap a,
+  body.dark .mainContainer .advanBox ol li h4,
+  body.dark .tradeListContainer > div table,
+  body.dark .fa-arrow-circle-right:before,
+  body.dark .pagenation > a,
+  body.dark .pagenation > ol > li a,
+  body.dark .balanceContainer > div ul li.active,
+  body.dark .noticeContainer > div ul li.active,
+  body.dark .qnaContainer > div ul li.active,
+  body.dark .balanceContainer > div .tabPage h4,
+  body.dark .balanceContainer > div .tabPage div input,
+  body.dark .balanceContainer > div table,
+  body.dark .noticeContainer > div div table,
+  body.dark .qnaContainer > div div table,
+  body.dark .qnaContainer > div div form input,
+  body.dark .qnaContainer > div div form label,
+  body.dark .loginContainer h2,
+  body.dark .joinContainer h2,
+  body.dark .loginContainer input,
+  body.dark .joinContainer input,
+  body.dark .loginContainer ul li a,
+  body.dark .joinContainer p:last-of-type,
+  body.dark .joinContainer p a,
+  body.dark footer > div > ul li b,
+  body.dark footer > div > div ul > li,
+  body.dark .tradingContainer > div > div:first-of-type > h2,
+  body.dark input[data-popup$='Popup'],
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div[class$="area"],
+  body.dark .tradingContainer .ty02 article span div input[type='text'],
+  body.dark .tradingContainer .ty02 article span div a,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl > dd > button,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div > div > button,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div ul li button,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div.leveragePoint ul li button,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > div > div.tr_point_bar > div > div > input[type='range'] + output,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div.leveragePoint div.leverage_pointBar > div.li_point_bar div input[type='range'] + output,
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .stopBar input[type='range'] + output,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:first-of-type dl,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > ul li.active a,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:last-of-type table tr td a,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table tr td a,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:last-of-type table,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:last-of-type table tr td:nth-of-type(3) button,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table tr td:nth-of-type(3) button,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:last-of-type table tr td:last-of-type button,
+  body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table tr td:last-of-type button,
+  body.dark div[class^='layer_'],
+  body.dark div[class^='layer_'] .btn_area button:first-of-type,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > input[type='number'],
+  body.dark div[class^='layer_'] div.summary div button,
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .stopBar button,
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .direct_input button,
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .direct_input input[type='number'],
+  body.dark div[class^='layer_'] ul.layer_stoploss_confirm_tit > li ul li button,
+  body.dark .frameWrapper > .invest_area,
+  body.dark .frameWrapper > .invest_area > div > dl > dd > button,
+  body.dark .frameWrapper > .invest_area > div > div > div > button,
+  body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > div ul li button,
+  body.dark .frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint ul li button,
+  body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > div > div.tr_point_bar > div > div > input[type='range'] + output,
+  body.dark .frameWrapper > .invest_area > div > div:nth-of-type(3) > div.leveragePoint div.leverage_pointBar > div.li_point_bar div input[type='range'] + output,
+  body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .stopBar input[type='range'] + output,
+  body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > input[type='number'],
+  body.dark .frameWrapper > .invest_area > div > div:first-of-type + div input,
+  body.dark .tradingContainer > div > div:first-of-type > h2 > section article span div input[type='text'],
+  body.dark .tradingContainer > div > div:first-of-type > h2 > section article span div a,
+  body.dark .noticeContainer > div div table tr td a,
+  body.dark .noticeContainer > div ul li.active a,
+  body.dark .noticeContainer > div > div p,
+  body.dark .qnaContainer > div div table tr td a,
+  body.dark .boardWriteContainer select,
+  body.dark .boardWriteContainer .btn_board_menu input[type='submit']:first-of-type,
+  body.dark [class$='Container'] > div ul li.active a,
+  body.dark .qnaContainer > div div.qnaReplyList ul li p:first-of-type,
+  body.dark .qnaContainer > div div.qnaReplyList ul li p:nth-of-type(2),
+  body.dark .qnaContainer > div > div.qnaViewBox p,
+  body.dark .qnaContainer > div > div.qnaViewBox #text_conts,
+  body.dark .qnaContainer > div div.qnaReplyBox textarea,
+  body.dark .noticeContainer > div > a.btn_1,
+  body.dark .qnaContainer > div > a.btn_1,
+  body.dark .tradingContainer .ty02 .slick-header-columns,
+  body.dark .tradingContainer .ty02 .slick-cell,
+  body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:first-of-type + div input,
+  body.dark .qnaContainer > div div.qnaReplyBox input[type='submit'],
+  body.dark .mainContainer .welBox > div > div a,
+  body.dark .loginContainer input[type='submit'],
+  body.dark .joinContainer input[type='submit'],
+  body.dark .boardWriteContainer .btn_board_menu input[type='submit']:not(:first-of-type) {
+      color: #fff;
+  }
+
+      body.dark .mainContainer .tradBox li span,
+      body.dark .mainContainer .advanBox ol li p,
+      body.dark .tradeListContainer > div table tr td:nth-of-type(2) span:last-of-type,
+      body.dark .tradeListContainer > div table tr td:nth-of-type(3) span:last-of-type,
+      body.dark .balanceContainer > div ul li,
+      body.dark .noticeContainer > div ul li,
+      body.dark .qnaContainer > div ul li,
+      body.dark .balanceContainer > div .tabPage ol li,
+      body.dark .qnaContainer > div div form input::placeholder,
+      body.dark .loginContainer > p,
+      body.dark .joinContainer > p,
+      body.dark .joinContainer form div p,
+      body.dark footer > div > ul li ol li a,
+      body.dark footer p,
+      body.dark [class$='Container'] > div ul li a,
+      body.dark .noticeContainer > div > div span,
+      body.dark .qnaContainer > div > div.qnaViewBox span {
+          color: #aaa;
+      }
+
+      body.dark header > div nav ul li a:hover,
+      body.dark header > div nav ul li.active a {
+          color: #bbb;
+      }
+
+      body.dark .balanceContainer > div .tabPage div input,
+      body.dark footer,
+      body.dark .tradingContainer > div > div:first-of-type > h2 > section,
+      body.dark .slick-row.ui-widget-content:first-of-type,
+      body.dark .slick-row.ui-state-active:first-of-type{
+          border-color: transparent;
+      }
+
+      body.dark .balanceContainer > div ul li.active,
+      body.dark .noticeContainer > div ul li.active,
+      body.dark .qnaContainer > div ul li.active,
+      body.dark .tradingContainer > div > div:nth-of-type(2) > ul li.active,
+      body.dark .tradeListContainer > div table tr:first-of-type,
+      body.dark .noticeContainer > div div table tr:first-of-type,
+      body.dark .qnaContainer > div div table tr:first-of-type,
+      body.dark .boardWriteContainer > div ul li.active a {
+          border-color: #fff;
+      }
+
+      body.dark header #gnbPanel > ul:last-of-type,
+      body.dark footer,
+      body.dark footer p,
+      body.dark footer > div > ul > li,
+      body.dark .qnaContainer > div div table tr,
+      body.dark .balanceContainer > div .tabPage div input:first-of-type,
+      body.dark .qnaContainer > div div form input,
+      body.dark .loginContainer input,
+      body.dark .joinContainer input,
+      body.dark .tradingContainer .ty02,
+      body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div:not(.order_book_area),
+      body.dark .tradingContainer .ty02 article span div input[type='text'],
+      body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2),
+      body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:first-of-type,
+      body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:last-of-type table tbody#dataListTbody tr,
+      body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table tbody#dataLoListTbody tr,
+      body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dd > input[type='number'],
+      body.dark div[class^='layer_'] dl,
+      body.dark div.layer_stoploss_confirm > div.detail > *:last-of-type div:last-of-type .direct_input input[type='number'],
+      body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table caption + thead tr,
+      body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div[class$="area"]:first-of-type,
+      body.dark .frameWrapper > .invest_area > div > dl:last-of-type dd > input[type='number'],
+      body.dark .frameWrapper > .invest_area > div > div:first-of-type + div input,
+      body.dark .tradingContainer > div > div:first-of-type > h2 > section article span div input[type='text'],
+      body.dark .tradingContainer > div > div:first-of-type > h2 > section,
+      body.dark .balanceContainer > div table tr:first-of-type,
+      body.dark .noticeContainer > div > div > div:not(.pagenation),
+      body.dark .balanceContainer > div table tr,
+      body.dark .noticeContainer > div div table tr,
+      body.dark .tradeListContainer div table tr td:not(:last-of-type),
+      body.dark .tradeListContainer > div table tr:not(:first-of-type),
+      body.dark .boardWriteContainer select,
+      body.dark .qnaContainer > div > div.qnaViewBox > div#text_conts,
+      body.dark .qnaContainer > div div.qnaReplyBox textarea,
+      body.dark .qnaContainer > div div.qnaReplyBox,
+      body.dark .slick-row.ui-widget-content:not(:first-of-type),
+      body.dark .slick-row.ui-state-active:not(:first-of-type),
+      body.dark .tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:first-of-type + div input {
+          border-color: #474D57;
+      }
+
+          body.dark footer > div > ul,
+          body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:first-of-type > div:last-of-type table tr td:not(:last-of-type),
+          body.dark .tradingContainer > div > div:nth-of-type(2) > div > div:last-of-type > div:last-of-type table tr td:not(:last-of-type),
+          body.dark .qnaContainer > div div.qnaReplyList ul li {
+              border-color: #26292e;
+          }
+
+  body.dark .mainContainer .tradBox li a,
+  body.dark .mainVisualBottomBox .mvBottomWrap a{
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+
+  body.dark div[class^='layer_'] {
+      box-shadow: rgba(0,0,0,0.3) 0 0 0 9999px;
+  }
+
+  body.dark header > div > div input,
+  body.dark .closeBtn {
+      background-image: url('../images/icon_white.png');
+  }
+
+  body.dark header #gnbPanel input[data-toggle="slideToggle"] {
+      background-image: url('../images/ico_set_white.png');
+  }
+
+  body.dark .tradingContainer > div > div:nth-of-type(3) .tradingOpenClose input {
+      background-image: url(../images/ico_openClose_white.png);
+  }
+
+.red,
+.color_red,
+.plus,
+.long,
+.greeney,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:nth-of-type(2) li p:first-of-type,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.transaction_area > div > ul:last-of-type li.buy,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:nth-of-type(2) > dd > button:first-of-type,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:last-of-type dt > span > span:first-of-type,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > div:nth-of-type(3) > div > div.tx p span,
+.slick-up,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > p.buy {
+  color: #e14549 !important;
+}
+
+.blue,
+.color_blue,
+.minus,
+.short,
+.dangeralarm,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > ul:last-of-type li p:first-of-type,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.transaction_area > div > ul:last-of-type li.sell,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.invest_area > div > dl:nth-of-type(2) > dd > button:last-of-type,
+.slick-down,
+.tradingContainer > div > div:nth-of-type(3) > div:nth-of-type(2) > div.order_book_area > div > p.sell {
+  color: #3498db !important;
+}
+/* All Using */
+
+
+@media screen and (max-width: 767px) {
+  .pcSwitch{
+      display: none;
+  }
+
+
+  header {
+      height: 70px;
+      background-color: #fff;
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.05);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 10;
+  }
+
+      header > div:first-of-type {
+          padding: 0 3%;
+          box-sizing: border-box;
+          height: 70px;
+          line-height: 70px;
+      }
+
+      header > div > h1 {
+          float: left;
+      }
+
+      header > div > nav {
+          display: none;
+      }
+
+      header > div:first-of-type > div:last-of-type {
+          float: right;
+      }
+
+      header > div h1 {
+          margin-top: 20px;
+      }
+
+          header > div h1 a {
+              display: block;
+              width: 95px;
+              height: 27px;
+              background: url('../images/logo.png') no-repeat center / 100%;
+          }
+
+      header > div:first-of-type > div > * {
+          float: left;
+      }
+
+      header > div > div ul {
+          margin-right: 50px;
+          display: none;
+      }
+
+      header > div > div input {
+          margin-top: 20px;
+          display: block;
+          width: 33px;
+          height: 33px;
+          border: 0;
+          text-indent: -9999px;
+          background: url('../images/icon.png');
+          background-repeat: no-repeat;
+          background-size: auto;
+          cursor: pointer;
+      }
+
+
+      
+
+
+
+      header > #setPanel {
+          display: none;
+      }
+
+      header > div > div input[data-panel="setPanel"] {
+          background-position: -15px -20px;
+          display: none;
+      }
+
+      header > div > div input[data-panel="gnbPanel"] {
+          background-position: -118px -20px;
+      }
+
+
+      header #gnbPanel {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #fff;
+          width: 90%;
+          height: 100vh;
+          display: none;
+          padding: 60px 10%;
+          box-sizing: border-box;
+          z-index: 100;
+          box-shadow: rgba(0,0,0,0.3) 0 0 0 9999px;
+          overflow-y: scroll;
+      }
+          /* header #gnbPanel:after{
+      width:calc(100% - 420px);
+      height: 100%;
+      content: "";
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.3);
+      z-index: -1;
+  } */
+          header #gnbPanel.active {
+              display: block;
+          }
+
+          header #gnbPanel input[type="button"]:first-of-type {
+              position: absolute;
+              top: 50px;
+              right: 50px;
+          }
+
+          header #gnbPanel input[data-toggle="slideToggle"] {
+              position: static;
+              background-color: transparent;
+              border: 0;
+              font-size: 16px;
+              color: #303030;
+              background: url('../images/ico_set.png') no-repeat right center / auto;
+              line-height: 22px;
+              cursor: pointer;
+              margin-bottom: 30px;
+              display: block;
+              width: 100%;
+              text-align: left;
+          }
+
+          header #gnbPanel > ul:first-of-type {
+              margin-top: 50px;
+          }
+
+              header #gnbPanel > ul:first-of-type li {
+                  float: left;
+                  width: 48%;
+              }
+
+                  header #gnbPanel > ul:first-of-type li:not(:first-child) {
+                      margin-left: 4%;
+                  }
+                  header #gnbPanel > ul:first-of-type > li > ol{
+                      display: none;
+                  }
+                  header #gnbPanel > ul:first-of-type li a,
+                  header #gnbPanel > ul:nth-of-type(2) li a {
+                      font-weight: 500;
+                      font-size: 14px;
+                      transition: color 0.3s ease;
+                      text-align: center;
+                      display: block;
+                      padding: 15px 0;
+                      line-height: 20px;
+                      border-radius: 5px;
+                      box-sizing: border-box;
+                  }
+
+              header #gnbPanel > ul:first-of-type li:first-of-type a {
+                  background-color: #0062df;
+                  color: #fff;
+              }
+
+                  header #gnbPanel > ul:first-of-type li:last-of-type a {
+                      background-color: #e2e2ef;
+                      color: #303030;
+                  }
+
+          header #gnbPanel > ul:nth-of-type(2) li {
+              float: left;
+              width: 32%;
+              box-sizing: border-box;
+              position: relative;
+          }
+
+              header #gnbPanel > ul:nth-of-type(2) li:not(:first-of-type) {
+                  margin-left: 2%;
+              }
+
+                  header #gnbPanel > ul:nth-of-type(2) li:not(:first-of-type):after {
+                      content: '';
+                      display: block;
+                      position: absolute;
+                      top: 28px;
+                      left: 0;
+                      width: 1px;
+                      height: 13px;
+                      background-color: #ddd;
+                  }
+
+              header #gnbPanel > ul:nth-of-type(2) li a {
+                  font-size: 13px;
+                  margin-top: 10px;
+                  color: #303030;
+              }
+
+          header #gnbPanel > ul:last-of-type {
+              margin-top: 50px;
+              border-bottom: 1px solid #ddd;
+              margin-bottom: 40px;
+          }
+
+              header #gnbPanel > ul:last-of-type li {
+                  margin-bottom: 40px;
+              }
+
+                  header #gnbPanel > ul:last-of-type li a {
+                      display: block;
+                      color: #303030;
+                      font-size: 16px;
+                  }
+
+          header #gnbPanel ol {
+              /*padding: 20px;*/
+/*                background-color: #f5f5f5;
+              border-radius: 20px;
+              display: none;*/
+          }
+
+              header #gnbPanel ol li div {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+              }
+
+                  header #gnbPanel ol li div input[type="checkbox"] {
+                      display: none;
+                  }
+
+                      header #gnbPanel ol li div input[type="checkbox"] + label {
+                          background-color: #e5e5e5;
+                          width: 45px;
+                          height: 26px;
+                          border-radius: 25px;
+                          position: relative;
+                          padding: 5px;
+                          cursor: pointer;
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                          box-sizing: border-box;
+                      }
+
+                          header #gnbPanel ol li div input[type="checkbox"] + label span {
+                              background-color: #fff;
+                              width: 22px;
+                              height: 22px;
+                              position: absolute;
+                              left: 2px;
+                              top: 2px;
+                              border-radius: 11px;
+                              transition: transform 0.2s linear;
+                              background: url("../images/ico_sun.png") no-repeat center / 70% #fff;
+                          }
+
+                      header #gnbPanel ol li div input[type="checkbox"]:checked + label span {
+                          transform: translateX(19px);
+                          background-image: url("../images/ico_moon.png");
+                      }
+  /* header */
+
+
+  footer {
+      border-top: 1px solid #25292e;
+      background-color: #25292e;
+  }
+
+      footer > div {
+          padding: 30px 3%;
+          box-sizing: border-box;
+      }
+
+          footer > div > * {
+              float: none;
+          }
+
+          footer > div > div {
+              width: 100%;
+          }
+
+              footer > div > div > * {
+                  float: none;
+              }
+
+              footer > div > div h4 {
+                  width: 80px;
+                  height: 29px;
+                  background-image: url('../images/logo_footer.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: center;
+                  margin-bottom: 20px;
+              }
+
+              footer > div > div ul > li {
+                  font-size: 13px;
+                  line-height: 22px;
+                  color: #999;
+              }
+
+                  footer > div > div ul > li:first-of-type {
+                      margin-bottom: 5px;
+                  }
+
+                  footer > div > div ul > li:nth-child(2) {
+                      margin-bottom: 15px;
+                  }
+
+                  footer > div > div ul > li:last-of-type {
+                      margin-bottom: 20px;
+                  }
+
+                  footer > div > div ul > li ol li {
+                      float: left;
+                  }
+
+                      footer > div > div ul > li ol li:not(:first-of-type) {
+                          margin-left: 10px;
+                      }
+
+                      footer > div > div ul > li ol li a {
+                          display: block;
+                          width: 30px;
+                          height: 30px;
+                          border-radius: 50%;
+                          background-image: url('../images/icon_small_white.png');
+                          background-color: #777;
+                          background-repeat: no-repeat;
+                          background-size: auto;
+                      }
+
+                      footer > div > div ul > li ol li:first-of-type a {
+                          background-position: -10px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:nth-of-type(2) a {
+                          background-position: -64px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:nth-of-type(3) a {
+                          background-position: -116px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:last-of-type a {
+                          background-position: -170px -48px;
+                      }
+
+          footer > div > ul > li {
+              border-bottom: 1px solid rgba(255,255,255,0.2);
+          }
+
+          footer > div > ul li b {
+              display: block;
+              font-size: 14px;
+              line-height: 50px;
+              cursor: pointer;
+              position: relative;
+              padding: 0 3%;
+              box-sizing: border-box;
+              color: #999;
+          }
+
+              footer > div > ul li b:after {
+                  content: '+';
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  right: 3%;
+                  transition: transform 0.3s ease;
+              }
+
+          footer > div > ul li.active b:after {
+              transform: rotate(180deg);
+          }
+
+          footer > div > ul li ol {
+              display: none;
+          }
+
+              footer > div > ul li ol.active {
+                  display: block;
+              }
+
+              footer > div > ul li ol li {
+                  margin-bottom: 20px;
+                  padding: 0 3%;
+                  box-sizing: border-box;
+              }
+
+                  footer > div > ul li ol li a {
+                      font-size: 12px;
+                      color: #999;
+                  }
+}
+/* mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .pcSwitch {
+      display: none;
+  }
+
+
+  header {
+      height: 80px;
+      background-color: #fff;
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.05);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 10;
+  }
+
+      header > div:first-of-type {
+          padding: 0 3%;
+          box-sizing: border-box;
+          height: 80px;
+          line-height: 80px;
+      }
+
+      header > div > h1 {
+          margin-top: 25px;
+          float: left;
+      }
+
+      header > div > nav {
+          display: none;
+      }
+
+      header > div:first-of-type > div:last-of-type {
+          float: right;
+      }
+
+      header > div h1 a {
+          display: block;
+          width: 95px;
+          height: 27px;
+          background: url('../images/logo.png') no-repeat center / 100%;
+      }
+
+      header > div:first-of-type > div > * {
+          float: left;
+      }
+
+      header > div > div ul {
+          margin-right: 50px;
+      }
+
+          header > div > div ul > li {
+              float: left;
+          }
+
+              header > div > div ul > li:not(:first-child) {
+                  margin-left: 10px;
+              }
+
+              header > div > div ul > li:last-of-type {
+                  position: relative;
+              }
+
+              header > div > div ul > li > a {
+                  font-weight: 500;
+                  font-size: 13px;
+                  padding: 12px 25px;
+                  box-sizing: border-box;
+                  border-radius: 5px;
+                  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+              }
+
+              header > div > div ul > li:first-of-type > a {
+                  background-color: #0062df;
+                  color: #fff;
+              }
+
+              header > div > div ul > li:last-of-type > a {
+                  background-color: #e2e2ef;
+                  color: #303030;
+              }
+
+              header > div > div ul > li:hover > a + ol {
+                  display: block;
+              }
+
+              header > div > div ul > li ol {
+                  position: absolute;
+                  top: 80px;
+                  left: 50%;
+                  transform: translate(-50%,0);
+                  background-color: rgba(255,255,255,0.8);
+                  display: none;
+                  width: 180px;
+                  text-align: center;
+                  padding: 10px 0;
+                  box-sizing: border-box;
+                  border-radius: 0 0 20px 20px;
+                  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+              }
+
+                  header > div > div ul > li ol li {
+                      line-height: 35px;
+                      padding: 0 20px;
+                  }
+
+                      header > div > div ul > li ol li a {
+                          color: #303030;
+                          font-size: 14px;
+                          transition: color 0.3s ease;
+                      }
+
+                          header > div > div ul > li ol li a:hover {
+                              color: #777;
+                          }
+
+      header > div > div input {
+          margin-top: 25px;
+          display: block;
+          width: 33px;
+          height: 33px;
+          border: 0;
+          text-indent: -9999px;
+          background: url('../images/icon.png');
+          background-repeat: no-repeat;
+          background-size: auto;
+          cursor: pointer;
+      }
+
+      header > #setPanel {
+          display: none;
+      }
+
+      header > div > div input[data-panel="setPanel"] {
+          background-position: -15px -20px;
+          display: none;
+      }
+
+      header > div > div input[data-panel="gnbPanel"] {
+          background-position: -118px -20px;
+      }
+
+
+      header #gnbPanel {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #fff;
+          width: 420px;
+          height: 100vh;
+          display: none;
+          padding: 80px 50px;
+          box-sizing: border-box;
+          z-index: 100;
+          box-shadow: rgba(0,0,0,0.3) 0 0 0 9999px;
+          overflow-y: scroll;
+      }
+          /* header #gnbPanel:after{
+      width:calc(100% - 420px);
+      height: 100%;
+      content: "";
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.3);
+      z-index: -1;
+  } */
+          header #gnbPanel.active {
+              display: block;
+          }
+
+          header #gnbPanel input[type="button"]:first-of-type {
+              position: absolute;
+              top: 50px;
+              right: 50px;
+          }
+
+          header #gnbPanel input[data-toggle="slideToggle"] {
+              position: static;
+              background-color: transparent;
+              border: 0;
+              font-size: 16px;
+              color: #303030;
+              padding: 0 162px 0 0;
+              background: url('../images/ico_set.png') no-repeat right center / auto;
+              line-height: 22px;
+              cursor: pointer;
+              margin-bottom: 30px;
+          }
+
+          header #gnbPanel > ul:first-of-type {
+              display: none;
+          }
+
+              header #gnbPanel > ul:first-of-type li {
+                  float: left;
+                  width: 48%;
+              }
+
+                  header #gnbPanel > ul:first-of-type li:not(:first-child) {
+                      margin-left: 4%;
+                  }
+
+                  header #gnbPanel > ul:first-of-type li a {
+                      color: #303030;
+                      font-weight: 500;
+                      font-size: 14px;
+                      transition: color 0.3s ease;
+                      text-align: center;
+                      display: block;
+                      line-height: 50px;
+                      border-radius: 30px;
+                  }
+
+                  header #gnbPanel > ul:first-of-type li:first-of-type a {
+                      background-color: #00ffae;
+                  }
+
+                  header #gnbPanel > ul:first-of-type li:last-of-type a {
+                      background-color: #e2e2ef;
+                  }
+
+          header #gnbPanel > ul:nth-of-type(2) {
+              display: none;
+          }
+
+          header #gnbPanel > ul:last-of-type {
+              margin-top: 50px;
+              border-bottom: 1px solid #ddd;
+              margin-bottom: 40px;
+          }
+
+              header #gnbPanel > ul:last-of-type li {
+                  margin-bottom: 40px;
+              }
+
+                  header #gnbPanel > ul:last-of-type li a {
+                      display: block;
+                      color: #303030;
+                      font-size: 16px;
+                  }
+
+          header #gnbPanel ol {
+              /*padding: 20px;*/
+/*                background-color: #f5f5f5;
+              border-radius: 20px;
+              display: none;*/
+          }
+
+              header #gnbPanel ol li div {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+              }
+
+                  header #gnbPanel ol li div input[type="checkbox"] {
+                      display: none;
+                  }
+
+                      header #gnbPanel ol li div input[type="checkbox"] + label {
+                          background-color: #e5e5e5;
+                          width: 45px;
+                          height: 26px;
+                          border-radius: 25px;
+                          position: relative;
+                          padding: 5px;
+                          cursor: pointer;
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                          box-sizing: border-box;
+                      }
+
+                          header #gnbPanel ol li div input[type="checkbox"] + label span {
+                              background-color: #fff;
+                              width: 22px;
+                              height: 22px;
+                              position: absolute;
+                              left: 2px;
+                              top: 2px;
+                              border-radius: 11px;
+                              transition: transform 0.2s linear;
+                              background: url("../images/ico_sun.png") no-repeat center / 70% #fff;
+                          }
+
+                      header #gnbPanel ol li div input[type="checkbox"]:checked + label span {
+                          transform: translateX(19px);
+                          background-image: url("../images/ico_moon.png");
+                      }
+  /* header */
+
+
+  footer {
+      border-top: 1px solid #25292e;
+      background-color: #25292e;
+  }
+
+      footer > div {
+          padding: 50px 3%;
+          box-sizing: border-box;
+      }
+
+          footer > div > * {
+              float: left;
+          }
+
+          footer > div > div {
+              width: 60%;
+          }
+
+              footer > div > div > * {
+                  float: left;
+              }
+
+              footer > div > div h4 {
+                  width: 80px;
+                  height: 29px;
+                  background-image: url('../images/logo_footer.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: center;
+              }
+
+              footer > div > div > ul {
+                  margin-left: 5%;
+                  width: calc(95% - 129px)
+              }
+
+              footer > div > div ul > li {
+                  font-size: 15px;
+                  line-height: 22px;
+                  color: #999;
+                  padding-right: 10%;
+                  box-sizing: border-box;
+              }
+
+                  footer > div > div ul > li:first-of-type {
+                      margin-bottom: 5px;
+                  }
+
+                  footer > div > div ul > li:nth-of-type(2) {
+                      margin-bottom: 15px;
+                  }
+
+                  footer > div > div ul > li ol li {
+                      float: left;
+                  }
+
+                      footer > div > div ul > li ol li:not(:first-of-type) {
+                          margin-left: 10px;
+                      }
+
+                      footer > div > div ul > li ol li a {
+                          display: block;
+                          width: 30px;
+                          height: 30px;
+                          border-radius: 50%;
+                          background-image: url('../images/icon_small_white.png');
+                          background-color: #777;
+                          background-repeat: no-repeat;
+                          background-size: auto;
+                      }
+
+                      footer > div > div ul > li ol li:first-of-type a {
+                          background-position: -10px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:nth-of-type(2) a {
+                          background-position: -64px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:nth-of-type(3) a {
+                          background-position: -116px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:last-of-type a {
+                          background-position: -170px -48px;
+                      }
+
+          footer > div > ul {
+              width: calc(40% - 2px);
+              border-left: 1px solid rgba(255,255,255,0.1);
+          }
+
+              footer > div > ul > li {
+                  float: left;
+                  width: 50%;
+                  text-align: center;
+              }
+
+              footer > div > ul li b {
+                  display: block;
+                  margin-bottom: 20px;
+                  color: #999;
+              }
+
+              footer > div > ul li ol li:not(:last-of-type) {
+                  margin-bottom: 15px;
+              }
+
+              footer > div > ul li ol li a {
+                  font-size: 14px;
+                  color: #999;
+              }
+}
+/* tablet */
+
+@media screen and (min-width: 1280px) {
+  header {
+      height: 80px;
+      background-color: #fff;
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.05);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 10;
+  }
+
+      header > div:first-of-type {
+          max-width: 1280px;
+          margin: 0 auto;
+          height: 80px;
+          line-height: 80px;
+      }
+
+      header > div > h1,
+      header > div > nav {
+          float: left;
+      }
+
+      header > div:first-of-type > div:last-of-type {
+          float: right;
+      }
+
+      header > div h1 {
+          margin-top: 25px;
+      }
+
+          header > div h1 a {
+              display: block;
+              width: 95px;
+              height: 27px;
+              background: url('../images/logo.png') no-repeat center / 100%;
+          }
+
+      header > div nav ul {
+          margin-left: 100px;
+      }
+
+          header > div nav ul li {
+              float: left;
+          }
+
+              header > div nav ul li a {
+                  color: #303030;
+                  font-weight: 500;
+                  font-size: 16px;
+                  transition: color 0.3s ease;
+              }
+
+              header > div nav ul li.active a {
+                  color: #00ffae;
+              }
+
+              header > div nav ul li a:hover {
+                  color: #bbb;
+              }
+
+              header > div nav ul li:not(:first-child) {
+                  margin-left: 50px;
+              }
+
+      header > div:first-of-type > div > * {
+          float: left;
+      }
+
+      header > div > div ul {
+          margin-right: 50px;
+      }
+
+          header > div > div ul > li {
+              float: left;
+          }
+
+              header > div > div ul > li:not(:first-child) {
+                  margin-left: 10px;
+              }
+
+              header > div > div ul > li:last-of-type {
+                  position: relative;
+              }
+
+              header > div > div ul > li > a {
+                  font-weight: 500;
+                  font-size: 14px;
+                  padding: 12px 25px;
+                  box-sizing: border-box;
+                  border-radius: 5px;
+                  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+              }
+
+              header > div > div ul > li:first-of-type > a {
+                  background-color: #0062df;
+                  color: #fff;
+              }
+
+              header > div > div ul > li:last-of-type > a {
+                  background-color: #e2e2ef;
+                  color: #303030;
+              }
+
+              header > div > div ul > li:hover > a + ol {
+                  display: block;
+              }
+
+              header > div > div ul > li ol {
+                  position: absolute;
+                  top: 80px;
+                  left: 50%;
+                  transform: translate(-50%,0);
+                  background-color: rgba(255,255,255,0.8);
+                  display: none;
+                  width: 180px;
+                  text-align: center;
+                  padding: 10px 0;
+                  box-sizing: border-box;
+                  border-radius: 0 0 20px 20px;
+                  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+              }
+
+                  header > div > div ul > li ol li {
+                      line-height: 35px;
+                      padding: 0 20px;
+                  }
+
+                      header > div > div ul > li ol li a {
+                          color: #303030;
+                          font-size: 14px;
+                          transition: color 0.3s ease;
+                      }
+
+                          header > div > div ul > li ol li a:hover {
+                              color: #777;
+                          }
+
+
+
+      input[type="checkbox"]#modeSwitch{
+          display: none;
+      }      
+      input[type="checkbox"]#modeSwitch+label{
+          margin-top: 19px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 42px;
+          height: 42px;
+          border-radius: 50%;
+          background-color: #fff;
+          transition: background-color 0.2s linear;
+          box-shadow: 0 0 20px rgba(0,0,0,0.1);
+          cursor: pointer;
+      }  
+      input[type="checkbox"]#modeSwitch+label span{
+          display: block;
+          width: 22px;
+          height: 22px;
+          border-radius: 11px;
+          background: url("../images/ico_sun.png") no-repeat center / 70%;
+      }
+      input[type="checkbox"]#modeSwitch:hover+label{
+          background-color: #2b3139;
+      }  
+      input[type="checkbox"]#modeSwitch:checked+label span{
+          background-image: url("../images/ico_moon.png");
+      }
+
+
+
+
+          header > div > div input[data-panel="setPanel"] {
+              background-position: -15px -20px;
+          }
+
+          header > div > div input[data-panel="gnbPanel"] {
+              background-position: -118px -20px;
+              display: none;
+          }
+
+
+      header #setPanel {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #fff;
+          width: 420px;
+          height: 100vh;
+          display: none;
+          padding: 80px 50px;
+          box-sizing: border-box;
+          z-index: 100;
+          box-shadow: rgba(0,0,0,0.3) 0 0 0 9999px;
+      }
+          /* header #setPanel:after{
+      width:calc(100% - 420px);
+      height: 100%;
+      content: "";
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.3);
+      z-index: -1;
+  }  */
+          header #setPanel.active {
+              display: block;
+          }
+
+          header #setPanel input[type="button"] {
+              position: absolute;
+              top: 50px;
+              right: 50px;
+          }
+
+          header #setPanel ul li {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin-top: 50px;
+          }
+
+              header #setPanel ul li span {
+                  font-size: 15px;
+                  font-weight: 400;
+                  color: #303030;
+              }
+
+              header #setPanel ul li input[type="checkbox"] {
+                  display: none;
+              }
+
+                  header #setPanel ul li input[type="checkbox"] + label {
+                      background-color: #e5e5e5;
+                      width: 45px;
+                      height: 26px;
+                      border-radius: 25px;
+                      position: relative;
+                      padding: 5px;
+                      cursor: pointer;
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      box-sizing: border-box;
+                  }
+
+                      header #setPanel ul li input[type="checkbox"] + label span {
+                          background-color: #fff;
+                          width: 22px;
+                          height: 22px;
+                          position: absolute;
+                          left: 2px;
+                          top: 2px;
+                          border-radius: 11px;
+                          transition: transform 0.2s linear;
+                          background: url("../images/ico_sun.png") no-repeat center / 70% #fff;
+                      }
+
+                  header #setPanel ul li input[type="checkbox"]:checked + label span {
+                      transform: translateX(19px);
+                      background-image: url("../images/ico_moon.png");
+                  }
+
+
+      header #gnbPanel {
+          display: none;
+      }
+  /* header */
+
+
+  footer {
+      border-top: 1px solid #25292e;
+      background-color: #25292e;
+  }
+
+      footer > div {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 50px 0;
+          box-sizing: border-box;
+      }
+
+          footer > div > * {
+              float: left;
+          }
+
+          footer > div > div {
+              width: 60%;
+          }
+
+              footer > div > div > * {
+                  float: left;
+              }
+
+              footer > div > div h4 {
+                  width: 80px;
+                  height: 29px;
+                  background-image: url('../images/logo_footer.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: center;
+              }
+
+              footer > div > div > ul {
+                  margin-left: 5%;
+                  width: calc(95% - 129px)
+              }
+
+              footer > div > div ul > li {
+                  font-size: 15px;
+                  line-height: 22px;
+                  color: #999;
+              }
+
+                  footer > div > div ul > li:first-of-type {
+                      margin-bottom: 5px;
+                  }
+
+                  footer > div > div ul > li:nth-of-type(2) {
+                      margin-bottom: 15px;
+                  }
+
+                  footer > div > div ul > li ol li {
+                      float: left;
+                  }
+
+                      footer > div > div ul > li ol li:not(:first-of-type) {
+                          margin-left: 10px;
+                      }
+
+                      footer > div > div ul > li ol li a {
+                          display: block;
+                          width: 30px;
+                          height: 30px;
+                          border-radius: 50%;
+                          background-image: url('../images/icon_small_white.png');
+                          background-color: #777;
+                          background-repeat: no-repeat;
+                          background-size: auto;
+                      }
+
+                      footer > div > div ul > li ol li:first-of-type a {
+                          background-position: -10px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:nth-of-type(2) a {
+                          background-position: -64px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:nth-of-type(3) a {
+                          background-position: -116px -48px;
+                      }
+
+                      footer > div > div ul > li ol li:last-of-type a {
+                          background-position: -170px -48px;
+                      }
+
+          footer > div > ul {
+              width: calc(40% - 2px);
+              border-left: 1px solid rgba(255,255,255,0.1);
+          }
+
+              footer > div > ul > li {
+                  float: left;
+                  width: 50%;
+                  text-align: center;
+              }
+
+              footer > div > ul li b {
+                  display: block;
+                  margin-bottom: 20px;
+                  color: #999;
+              }
+
+              footer > div > ul li ol li:not(:last-of-type) {
+                  margin-bottom: 15px;
+              }
+
+              footer > div > ul li ol li a {
+                  font-size: 14px;
+                  color: #999;
+              }
+}
+/* desktop */
+
+
+

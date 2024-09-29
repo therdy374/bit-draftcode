@@ -1,0 +1,300 @@
+/*
+IMPORTANT:
+In order to preserve the uniform grid appearance, all cell styles need to have padding, margin and border sizes.
+No built-in (selected, editable, highlight, flashing, invalid, loading, :focus) or user-specified CSS
+classes should alter those!
+*/
+
+.slick-header.ui-state-default, .slick-headerrow.ui-state-default {
+	width: calc(100% - 1px);
+	overflow: hidden;
+	border-left: 0px;
+	font-size: 11px;
+}
+
+.slick-header-columns, .slick-headerrow-columns {
+  position: static;
+  width: 350px;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #f9fafc;
+}
+
+.slick-header-column.ui-state-default {
+  /*position: relative;
+  display: inline-block;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;*/
+  width: 20% !important;
+  height: 20px;
+  line-height: 20px;
+  /*margin: 0;
+  padding: 5px;*/
+/*   border-right: 1px solid silver; */
+  /*border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;*/
+  float: left;
+}
+
+.slick-headerrow-column.ui-state-default {
+  padding: 4px;
+}
+
+.slick-header-column-sorted {
+  font-style: italic;
+}
+
+.slick-sort-indicator{
+  display: inline-block;
+  width: 5px;
+  height: 8px;
+  margin-left: 4px;
+  background: url(../images/ascdesc.png);*/
+}
+
+.slick-sort-indicator-asc{
+  display: inline-block;
+  width: 5px;
+  height: 8px;
+  margin-left: 4px;
+  background: url(../images/up.png);
+}
+
+.slick-sort-indicator-desc{
+  display: inline-block;
+  width: 5px;
+  height: 8px;
+  margin-left: 4px;
+  background: url(../images/down.png);
+}
+
+.slick-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+  cursor: col-resize;
+  width: 4px;
+  right: 0px;
+  top: 0;
+  height: 100%;
+}
+
+.slick-sortable-placeholder {
+  background: silver;
+}
+
+.grid-canvas {
+  position: relative;
+  outline: 0;
+  width: 355px;
+}
+
+.slick-row.ui-widget-content, .slick-row.ui-state-active {
+  position: absolute;
+  border: 0px;
+  width: 100%;
+  border-top: 1px solid #f2f2f2;
+}
+
+.slick-row.ui-widget-content:hover {
+	background-color: #f0f3fa;
+}
+
+.slick-cell, .slick-headerrow-column {
+	width: auto !important;
+  position: absolute;
+  border: 1px solid transparent;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  z-index: 1;
+  padding: 1px 2px 2px 3px;
+  margin: 0;
+  white-space: nowrap;
+  cursor: default;
+  font-size: 12px;
+  line-height: 28px;  
+  cursor: pointer;
+}
+
+.slick-viewport::-webkit-scrollbar {
+    width: 4px;
+}
+.slick-viewport::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.slick-viewport::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+
+.r0 {
+	line-height : 55px;
+}
+
+.r1 {
+	font-size: 12px;
+	font-weight: 800;
+	line-height: 17px;
+}
+
+.r2 {
+	line-height: 20px;
+}
+
+.r3{
+	line-height: 17px;
+}
+
+.r3 span{
+	display: block;
+}
+
+.changePriceSpan{
+	font-size: 10.5px;
+}
+
+.nameSpan {
+	opacity: 0.5;
+}
+
+.slick-up {
+	color: #E14549;
+}
+
+.slick-down {
+	color: #3498DB;
+}
+
+/* .slick-center { */
+/* 	color: black; */
+/* } */
+
+.slick-group-toggle {
+  display: inline-block;
+}
+.slick-row{
+	display: flex;
+}
+.slick-row .slick-cell {
+	position: static;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.slick-row .slick-cell:first-of-type {
+	width: 15% !important;
+}
+.slick-row .slick-cell:nth-of-type(2) {
+	width: 30% !important;
+}
+.slick-row .slick-cell:nth-of-type(3) {
+	width: 18% !important;
+}
+.slick-row .slick-cell:nth-of-type(4) {
+	width: 18% !important;
+}
+.slick-row .slick-cell:last-of-type {
+	width: 18% !important;
+}
+.r0 {
+	right: 0 !important;
+}
+.slick-cell.highlighted {
+	background: lightskyblue;
+	background: rgba(0, 0, 255, 0.2);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.slick-cell.flashing {
+  border: 1px solid red !important;
+}
+
+.slick-cell.editable {
+  z-index: 11;
+  overflow: visible;
+  background: white;
+  border-color: black;
+  border-style: solid;
+}
+
+.slick-cell:focus {
+  outline: none;
+}
+
+.slick-reorder-proxy {
+  display: inline-block;
+  background: blue;
+  opacity: 0.15;
+  filter: alpha(opacity = 15);
+  cursor: move;
+}
+
+.slick-reorder-guide {
+  display: inline-block;
+  height: 2px;
+  background: blue;
+  opacity: 0.7;
+  filter: alpha(opacity = 70);
+}
+
+.slick-selection {
+  z-index: 10;
+  position: absolute;
+  border: 2px dashed black;
+}
+
+.slick-coulumns-text-right {
+	text-align: right;
+/* 	color: #e14549; */
+/* 	color: #0ecb81; */
+}
+
+.slick-header-column.currency{
+	text-align: right;
+}
+
+.symbolName{
+	display: block;
+}
+
+.symbolName:hover{
+	text-decoration: underline;
+	text-decoration-thickness : 2px;
+}
+
+.symbolNameKr {
+	display: block;
+	font-size: 10.5px;
+    font-weight: 400;
+}
+
+section.ty02 {
+	width: 400px;
+	height: 100%;
+}
+
+section article .tabB {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+section article {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+#myGrid{
+	width: 100%;
+}
